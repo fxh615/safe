@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./lib",
+
+    /* Basic Options */
+    "target": "es6",
+    "module": "esnext",
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationMap": false,
+    "sourceMap": true,
+    "composite": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "strictBindCallApply": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    /* Advanced Options */
+    "forceConsistentCasingInFileNames": true,
+
+    /* 实验支持  */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "allowSyntheticDefaultImports": true,
+
+    /* Cli Options */
+    "pretty": true,
+
+    "jsx": "react-jsx",
+    "allowJs": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@/themes/*": ["src/themes/*"],
+      "@ant-design/pro-utils": ["src/pros/utils/*"],
+      "@ant-design/pro-card": ["src/pros/card/*"],
+      "@ant-design/pro-form": ["src/pros/form/*"],
+      "@ant-design/pro-table": ["src/pros/table/*"],
+      "@ant-design/pro-field": ["src/pros/fields/*"],
+      "@ant-design/pro-provider": ["src/pros/provider/*"]
+    }
+  },
+  "include": ["src/**/*", "**/*.spec.ts"],
+  "exclude": ["node_modules", "src/tests"],
+}

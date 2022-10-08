@@ -1,0 +1,13 @@
+﻿@root-entry-name: 'default';
+@import (reference) '../../../../style/themes/index.less';
+
+@pro-field-checkbox: ~'@{ant-prefix}-pro-field-checkbox';
+
+.@{pro-field-checkbox} {
+  &-vertical {
+    .@{ant-prefix}-checkbox-group-item {
+      display: flex;
+      margin-right: 0;
+    }
+  }
+}

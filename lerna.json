@@ -1,0 +1,32 @@
+{
+  "packages": [
+    "packages/*",
+    "example/*",
+    "website/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "independent": true,
+  "command": {
+    "publish": {
+      "skip-git": true,
+      "allowBranch": [
+        "master",
+        "dev"
+      ]
+    }
+  },
+  "changelog": {
+    "cacheDir": ".changelog",
+    "labels": {
+      "tag: new feature": ":rocket: 新功能",
+      "tag: breaking change": ":boom: Breaking Change",
+      "tag: bug fix": ":bug: 修复问题",
+      "tag: enhancement": ":nail_care: Enhancement",
+      "tag: documentation": ":memo: Documentation",
+      "tag: internal": ":house: Internal",
+      "tag: underlying tools": ":hammer: Underlying Tools"
+    }
+  }
+}

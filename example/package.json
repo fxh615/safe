@@ -1,0 +1,24 @@
+{
+  "name": "demo",
+  "version": "0.0.3",
+  "description": "",
+  "scripts": {
+    "start": "rollup -c rollup.config.js -w",
+    "test": "jest --coverage"
+  },
+  "license": "ISC",
+  "repository": "safe",
+  "author": {
+    "name": "xiayun",
+    "email": "xiayun@stoneatom.com"
+  },
+  "dependencies": {
+    "@safe/components": "0.0.3"
+  },
+  "browserslist": [
+    ">1%",
+    "last 1 version",
+    "Firefox ESR",
+    "not dead"
+  ]
+}

@@ -1,0 +1,17 @@
+**/*.min.js
+**/
+test/index.html
+test/bundle.js
+es/**
+dist/**
+lib/**/*.js
+node_modules/**
+bower_components/**
+stories/**
+rollup.config.js
+test.js
+.DS_Store
+/examples/*/public/*
+
+
+

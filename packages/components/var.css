@@ -1,0 +1,16 @@
+:root{
+  --layout-sider-background: #001529;
+  --layout-trigger-height: 80px;
+  --layout-trigger-background: blue;
+  --layout-header-height:64px;
+  --layout-header-padding: 0 50px;
+  --layout-header-color: rgba(0,0,0,0.9);
+  --layout-header-background: #001529;
+  --layout-body-background: #f0f2f5;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
