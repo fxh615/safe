@@ -75,7 +75,8 @@
     "@types/history": "^4.7.7"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry":"https://registry.npmjs.org/"
   },
-  "gitHead": "18d6cc9431113f2c40f4f84368f07f39bf6f87bf"
+  "gitHead": "4b64fe6f5e7f666fae42958d694705c5f361b855"
 }
