@@ -1,6 +1,6 @@
 {
   "name": "@safe/components",
-  "version": "0.0.39",
+  "version": "0.0.40",
   "description": "",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
@@ -22,13 +22,12 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
-    "highlight.js": "^11.5.1",
-    "history": "^4.7.2",
     "classnames": "^2.2.6",
     "copy-to-clipboard": "^3.2.0",
+    "highlight.js": "^11.5.1",
+    "history": "^4.7.2",
     "memoize-one": "^6.0.0",
     "moment": "^2.29.4",
-    "sql-formatter": "^7.0.2",
     "rc-cascader": "~3.6.0",
     "rc-checkbox": "~2.3.0",
     "rc-collapse": "~3.3.0",
@@ -62,7 +61,8 @@
     "rc-trigger": "^5.2.10",
     "rc-upload": "~4.3.0",
     "rc-util": "^5.22.5",
-    "scroll-into-view-if-needed": "^2.2.25"
+    "scroll-into-view-if-needed": "^2.2.25",
+    "sql-formatter": "^7.0.2"
   },
   "browserslist": [
     ">1%",
