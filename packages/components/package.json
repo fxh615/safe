@@ -1,7 +1,7 @@
 {
-  "name": "@safe/components",
+  "name": "@safe66/components",
   "version": "0.0.49",
-  "description": "",
+  "description": "@safe/components",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
   "browser": "lib/index.umd.js",
@@ -78,5 +78,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "14db7256eaa7226ec134684fcb02efcad6087c4a"
+  "gitHead": "d39a2a5c838e7b805a659dc539fd88c7ceed2968"
 }
