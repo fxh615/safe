@@ -74,5 +74,8 @@
     "@types/color": "^3.0.3",
     "@types/history": "^4.7.7"
   },
-  "gitHead": "110345190ee32adcd3a0cbfd60f1abf78c9956c0"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "4c45284342fa4f1b5ea35536467d5ea9e13dbb30"
 }
