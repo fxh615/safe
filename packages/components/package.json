@@ -1,6 +1,6 @@
 {
   "name": "@safe66/components",
-  "version": "0.0.49",
+  "version": "0.0.50",
   "description": "@safe/components",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
