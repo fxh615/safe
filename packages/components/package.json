@@ -1,6 +1,6 @@
 {
   "name": "@safe/components",
-  "version": "0.0.46",
+  "version": "0.0.47",
   "description": "",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
@@ -76,7 +76,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry":"https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "gitHead": "4b64fe6f5e7f666fae42958d694705c5f361b855"
 }
