@@ -1,6 +1,6 @@
 {
   "name": "safe",
-  "private": true,
+  "private": false,
   "scripts": {
     "clean": "rm -rf node_modules yarn.lock packages/*/node_modules examples/*/node_modules",
     "build:cli": "node ./scripts/buildCli.js",
