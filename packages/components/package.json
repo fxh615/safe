@@ -1,5 +1,6 @@
 {
-  "name": "@safe66/components",
+  "name": "@stoneatom/components",
+  "private": false,
   "version": "0.0.51",
   "description": "@safe/components",
   "main": "lib/index.cjs.js",
@@ -14,7 +15,7 @@
     "build:es": "tsc -p ./tsconfig.es.json",
     "test": "jest --coverage"
   },
-  "license": "ISC",
+  "license": "MIT",
   "repository": "safe",
   "author": {
     "name": "xiayun",
