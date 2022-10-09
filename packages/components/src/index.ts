@@ -67,7 +67,7 @@ export { default as Modal, ModalProps } from './modal';
 export { default as notification } from './notification';
 export { default as ConfigProvider } from './config-provider';
 export { default as LocaleProvider } from './locale-provider';
-// pros
+
 export {
     default as ProTable,
     ProTableProps,
