@@ -1,7 +1,7 @@
 {
   "name": "@stoneatom/components",
   "private": false,
-  "version": "0.0.51",
+  "version": "0.0.52",
   "description": "@safe/components",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
